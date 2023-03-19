@@ -9,4 +9,4 @@
 
 
 ### The questions that the team plans to answer with the project (20 points)
-The group final project aims to analyze video game sales and review data and answer three questions: (1) which genres of games perform well in specific regions, (2) the overall performance of games through sales-driven data, and (3) sales performance based on console. The project can be approached by following four steps: data cleaning, data exploration, data analysis, and data visualization. To analyze the data, we will use programming languages such as Python, Postgress, Tableau, Supervides Mmachine Learning, and Microsoft Excel. 
+The group final project aims to analyze video game sales and review data and answer three questions: (1) which genres of games perform well in specific regions, (2) the overall performance of games through sales-driven data, and (3) sales performance based on console. The project can be approached by following four steps: data cleaning, data exploration, data analysis, and data visualization. To analyze the data, we will use programming languages such as Python, Postgress, Tableau, Supervised Machine Learning, and Microsoft Excel. 
