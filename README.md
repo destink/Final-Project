@@ -6,6 +6,11 @@
 
 Our team has selected this Video Game dataset to use for our analysis. Many members of our team are avid gamers and the topic is very interesting to us. Furthermore, the business aspect of the video game industry is interesting to our group and will also contribute to our professions. 
 
+This robust dataset allows us to use the following: 
+- Machine learning
+- Market research
+- Product development
+
 ### A description of the data (20 points)
 
 
