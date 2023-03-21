@@ -6,7 +6,7 @@
 
 Our team has selected this [Video Game Sales](https://www.kaggle.com/datasets/ibriiee/video-games-sales-dataset-2022-updated-extra-feat) dataset and this [Popular Video Game](https://data.world/yansian/popular-video-games) dataset to use for our analysis. Many members of our team are avid gamers and the topic is very interesting to us. Furthermore, the business aspect of the video game industry is interesting to our group and will also contribute to our professions. 
 
-This robust dataset allows us to use the following: 
+These robust datasets allows us to use the following: 
 - Machine learning
 - Market research
 - Product development
