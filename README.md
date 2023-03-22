@@ -12,7 +12,13 @@ These robust datasets allow us to use the following:
 - Product development
 
 ### A description of the data (20 points)
-The dataset we will be analyzing has infromation from over 8,000 video games across various gaming platforms and consoles. The data provides information on each of the games year of release, genre, publisher, and game player maturity rating. The dataset also breaks down each games success informtion:
+The dataset we will be analyzing has infromation from over 8,000 different types of video games. The data provides categorical information on each of the games: 
+- year of release 
+- genre 
+- publisher
+- maturity rating 
+
+The dataset also breaks down each games success informtion:
 - sales by global regions (North Am, Europe, Japan)
 - global sales
 - critic score
