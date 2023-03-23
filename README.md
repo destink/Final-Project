@@ -32,6 +32,9 @@ The final dataset we will analyze is a result of two merged datasets, so that we
 The group final project aims to analyze video game sales and review data and answer three questions: (1) which genres of games perform well in specific regions, (2) the overall performance of games through sales-driven data, and (3) sales performance based on console. The project can be approached by following four steps: data cleaning, data exploration, data analysis, and data visualization. To analyze the data, we will use programming languages such as Python, Postgress, Tableau, Supervised Machine Learning, and Microsoft Excel. 
 
 Screenshots for the created database with at least two tables:
-image.png
-image.png
-image.png
+![image](https://user-images.githubusercontent.com/102545401/227072191-4a9ce55d-dcc1-470c-bfdd-db8c718cc1ee.png)
+![image](https://user-images.githubusercontent.com/102545401/227072213-ac540259-9dd0-43e6-b5cf-cdbf6425fc16.png)
+![image](https://user-images.githubusercontent.com/102545401/227072271-ad2c2a99-4141-472a-a0d3-fda057f64812.png)
+
+
+
