@@ -36,5 +36,8 @@ Screenshots for the created database with at least two tables:
 ![image](https://user-images.githubusercontent.com/102545401/227072213-ac540259-9dd0-43e6-b5cf-cdbf6425fc16.png)
 ![image](https://user-images.githubusercontent.com/102545401/227072271-ad2c2a99-4141-472a-a0d3-fda057f64812.png)
 
+### A description of the data exploration phase of the project (5 points) - Jordan
 
+### A description of the analysis phase of the project (5 points) - Destin
 
+### The technologies, languages, tools, and algorithms that the team used throughout the project (3 points) - all
