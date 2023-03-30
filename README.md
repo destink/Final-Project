@@ -4,21 +4,21 @@
 
 ### The selected topic and the reasoning for that selection (20 points)
 
-Our team has selected this [Video Game Sales](https://www.kaggle.com/datasets/ibriiee/video-games-sales-dataset-2022-updated-extra-feat) dataset and this [Popular Video Game](https://data.world/yansian/popular-video-games) dataset to use for our analysis. Many members of our team are avid gamers and the topic is very interesting to us. Furthermore, the business aspect of the video game industry is interesting to our group and will also contribute to our professions. 
+Our team has selected this [Video Game Sales](https://www.kaggle.com/datasets/ibriiee/video-games-sales-dataset-2022-updated-extra-feat) dataset for our analysis. Many members of our team are avid gamers and the topic is very interesting to us. Furthermore, the business aspect of the video game industry is interesting to our group and will also contribute to our professions. 
 
-These robust datasets allow us to use the following: 
+This robust dataset allows us to use the following: 
 - Machine learning
 - Market research
 - Product development
 
 ### A description of the data (20 points)
-The dataset we will be analyzing has infromation from over 8,000 different video games. The data we will analyze provides the following categorical information on each of the games: 
+The dataset we will be analyzing has information from over 8,000 different video games. The data we will analyze provides the following categorical information on each of the games: 
 - year of release 
 - genre 
 - publisher
 - maturity rating 
 
-The dataset also breaks down each games success informtion by:
+The dataset also breaks down each games success information by:
 - sales by global regions (North Am, Europe, Japan)
 - global sales
 - critic score
