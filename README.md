@@ -38,16 +38,14 @@ The review table includes the following columns:
 * User Score: score given by users
 * User Count: number of users who reviewed the game
 
-#### Data Merging:
-
 To calculate the total sales figures and review scores for each game by year, the games, sales, and review tables must be merged. The merged table includes all of the preceeding columns. 
 
 When merging the tables, care must be taken to avoid duplicating the "name" column. Additionally, the sales figures must be summed for each game and year to obtain the total sales figures.
 
-### The questions that the team plans to answer with the project (20 points)
+### The Big Questions
 The group final project aims to analyze video game sales and review data and answer three questions: (1) which genres of games perform well in specific regions, (2) the overall performance of games through sales-driven data, and (3) sales performance based on console. The project can be approached by following four steps: data cleaning, data exploration, data analysis, and data visualization. To analyze the data, we will use programming languages such as Python, Postgress, Tableau, Supervised Machine Learning, and Microsoft Excel. 
 
-### A description of the data exploration phase of the project (5 points) - Jordan
+### Data Exploration
 During our data exploration process for the assignment, we found that over 50% of the data did not contain review data. Upon further inspection, we discovered that several top-performing video game titles were missing this data. Since we wanted to explore the relationship between reviews and sales, we faced a dilemma: if we removed the rows without review data, we would lose important sales data, and if we kept the data, we would have missing review data, which could skew our analysis.
 
 To handle this issue, we created two main datasets: one for the cleaned review data and another for the original sales data from the original dataset, keeping the rows that didn't contain review data. This enabled us to perform our analysis while retaining the important sales data that was initially missing review information. This approach allowed us to gain a more accurate understanding of the relationship between reviews and sales in the video game industry.
@@ -59,7 +57,7 @@ Screenshots for the created database with at least two tables:
 ![image](https://user-images.githubusercontent.com/102545401/227072213-ac540259-9dd0-43e6-b5cf-cdbf6425fc16.png)
 ![image](https://user-images.githubusercontent.com/102545401/227072271-ad2c2a99-4141-472a-a0d3-fda057f64812.png)
 
-### A description of the analysis phase of the project
+### A description of the analysis phase of the project.
 
 During the analysis phase of this assignment, our first step was to clean up the dataset by removing any outliers and null information that could skew the data set and to minimize the noise created by the abundance of categorical variables in our dataset. Once the data was cleaned, regression models were created to gain insight into (1) the correlation of user and critic scores on global sales and (2) which genres of games have the highest sales in certain regions. The goal was to evaluate the fitness of the model using various statistical tests such as the F-test or the R-squared value. If the model was a good fit for the data, it could be used to make predictions on future sales when other variables shift.
 
@@ -67,7 +65,7 @@ In addition, we also utilized Tableau to create a dashboard with interactive com
 
 Overall, the analysis provided valuable insights into the video game industry, highlighting the importance of positive reviews in driving sales and the regional differences in genre preferences. The findings of this analysis can be used by game developers and publishers to make more informed decisions regarding game development, marketing, and distribution strategies.
 
-### Recommendations for a future analysis.
+### Recommendations for future analysis.
 
 1. Investigate the impact of game length on sales: This analysis could explore the relationship between the length of a video game and its sales performance. Does a longer game lead to more sales or do players prefer shorter games that can be completed quickly? This could be analyzed by looking at data on game length and sales figures.
 
