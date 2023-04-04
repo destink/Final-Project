@@ -1,8 +1,6 @@
-# Final-Project
+# Video Game Analysis
 
-## Segment 1
-
-### The selected topic and the reasoning for that selection (20 points)
+### Topic
 
 Our team has selected this [Video Game Sales](https://www.kaggle.com/datasets/ibriiee/video-games-sales-dataset-2022-updated-extra-feat) dataset for our analysis. Many members of our team are avid gamers and the topic is very interesting to us. Furthermore, the business aspect of the video game industry is interesting to our group and will also contribute to our professions. 
 
@@ -11,22 +9,40 @@ This robust dataset allows us to use the following:
 - Market research
 - Product development
 
-### A description of the data (20 points)
-The dataset we will be analyzing has information from over 8,000 different video games. The data we will analyze provides the following categorical information on each of the games: 
-- year of release 
-- genre 
-- publisher
-- maturity rating 
+### A description of the data
 
-The dataset also breaks down each games success information by:
-- sales by global regions (North Am, Europe, Japan)
-- global sales
-- critic score
-- user scores
-- meta score
-- user reviews
+This dataset contains information on video games and their sales figures, broken down by region and possibly platform. The data is stored in multiple tables, including one table with information on the games themselves, another table with sales data, and a third table with review information. The primary key for each table is an ID column, which serves as a unique identifier for each game.
 
-The final dataset we will analyze is a result of two merged datasets, so that we could have more information on critic/user scores for the set of games reviewed. 
+The games table includes the following columns:
+
+* ID: unique identifier for each game
+* Name: name of the game
+* Platform: gaming platform for the game
+* Year of release: year the game was released
+* Genre: genre of the game
+
+The sales table includes the following columns:
+
+* ID: unique identifier for each game
+* NA Sales: sales figures in North America
+* EU Sales: sales figures in Europe
+* JP Sales: sales figures in Japan
+* Other Sales: sales figures in other regions
+* Global Sales: total sales figures across all regions
+
+The review table includes the following columns:
+
+* ID: unique identifier for each game
+* Critic Score: score given by professional critics
+* Critic Count: number of critics who reviewed the game
+* User Score: score given by users
+* User Count: number of users who reviewed the game
+
+#### Data Merging:
+
+To calculate the total sales figures and review scores for each game by year, the games, sales, and review tables must be merged. The merged table includes all of the preceeding columns. 
+
+When merging the tables, care must be taken to avoid duplicating the "name" column. Additionally, the sales figures must be summed for each game and year to obtain the total sales figures.
 
 ### The questions that the team plans to answer with the project (20 points)
 The group final project aims to analyze video game sales and review data and answer three questions: (1) which genres of games perform well in specific regions, (2) the overall performance of games through sales-driven data, and (3) sales performance based on console. The project can be approached by following four steps: data cleaning, data exploration, data analysis, and data visualization. To analyze the data, we will use programming languages such as Python, Postgress, Tableau, Supervised Machine Learning, and Microsoft Excel. 
@@ -43,7 +59,27 @@ Screenshots for the created database with at least two tables:
 ![image](https://user-images.githubusercontent.com/102545401/227072213-ac540259-9dd0-43e6-b5cf-cdbf6425fc16.png)
 ![image](https://user-images.githubusercontent.com/102545401/227072271-ad2c2a99-4141-472a-a0d3-fda057f64812.png)
 
-### A description of the analysis phase of the project (5 points) - Destin
-Our first step of the analysis phase of the project has been to clean up the dataset to eliminate any outliers and null information that will skew the data set and to minimize the noise created by the abundance of categorical variables in our dataset. Our next step has been creating regression models to gain insight in to (1) the correlation of user and critic scores on global sales and (2) which genres of games have the highest sales in certain regions. Our next step will be evaluating the fitness of the model using various statistical tests such as the F-test or the R-squared value. If the model is a good fit for the data, we can use it to make predictions on futures sales when other variables shift. We have also utilized tableau to create a dashboard with interactive components and visualizations to further analyze the overall performance of video games through sales-driven data. 
-### The technologies, languages, tools, and algorithms that the team used throughout the project (3 points) - all
+### A description of the analysis phase of the project
+
+During the analysis phase of this assignment, our first step was to clean up the dataset by removing any outliers and null information that could skew the data set and to minimize the noise created by the abundance of categorical variables in our dataset. Once the data was cleaned, regression models were created to gain insight into (1) the correlation of user and critic scores on global sales and (2) which genres of games have the highest sales in certain regions. The goal was to evaluate the fitness of the model using various statistical tests such as the F-test or the R-squared value. If the model was a good fit for the data, it could be used to make predictions on future sales when other variables shift.
+
+In addition, we also utilized Tableau to create a dashboard with interactive components and visualizations to further analyze the overall performance of video games through sales-driven data. This dashboard allowed us to explore the data in a more intuitive and interactive manner and provided a visual representation of the correlations and trends that were uncovered during the analysis.
+
+Overall, the analysis provided valuable insights into the video game industry, highlighting the importance of positive reviews in driving sales and the regional differences in genre preferences. The findings of this analysis can be used by game developers and publishers to make more informed decisions regarding game development, marketing, and distribution strategies.
+
+### Recommendations for a future analysis.
+
+1. Investigate the impact of game length on sales: This analysis could explore the relationship between the length of a video game and its sales performance. Does a longer game lead to more sales or do players prefer shorter games that can be completed quickly? This could be analyzed by looking at data on game length and sales figures.
+
+2. Study the effect of platform on game sales: With the increasing popularity of mobile gaming, it would be interesting to explore the relationship between different gaming platforms and their impact on game sales. This analysis could look at how the platform type, such as console or mobile, affects game sales and whether certain genres perform better on specific platforms.
+
+3. Analyze the influence of marketing on game sales: This analysis could investigate the impact of different marketing strategies on game sales, such as influencer marketing, social media advertising, or traditional marketing channels. It could look at how much a company spends on marketing and how effective those marketing campaigns are in driving sales.
+
+4. Explore the relationship between player engagement and game sales: This analysis could investigate the relationship between player engagement, such as the number of hours played or the number of times a player logs in, and game sales. By understanding the factors that influence player engagement, game developers and publishers can create more engaging games that drive sales.
+
+5. Investigate the impact of game reviews on game sales over time: This analysis could explore the relationship between game reviews and game sales over time. Does a game's review score continue to impact sales long after its release, or do players quickly forget about a game's score once it's been released? This could be analyzed by looking at data on game reviews and sales figures over time.
+
+### The technologies, languages, tools, and algorithms that the team used throughout the project
 For our project this far, we have utilized jupyter notebook using python for the supervised machine learning component, pgAdmin for the creation and implementation of our database and tableau for out dashboard and further analysis of video game dataset. 
+
+### Results
