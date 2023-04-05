@@ -81,3 +81,8 @@ Overall, the analysis provided valuable insights into the video game industry, h
 For our project this far, we have utilized jupyter notebook using python for the supervised machine learning component, pgAdmin for the creation and implementation of our database and tableau for out dashboard and further analysis of video game dataset. 
 
 ### Results
+
+### Additional Findings via Tableau: 
+
+<img width="1300" alt="Additional_Findings" src="https://user-images.githubusercontent.com/116031639/230139087-a160c046-fac2-4184-819e-aa03b15acf3d.png">
+ 
