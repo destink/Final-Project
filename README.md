@@ -83,6 +83,8 @@ For our project this far, we have utilized jupyter notebook using python for the
 ### Results
 
 ### Additional Findings via Tableau: 
+[Mac Street's Tableau Visuals](https://public.tableau.com/views/VideoGameViz_16801441043260/VideoGameSalesAnalysis?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
+
 <img width="1253" alt="Screen Shot 2023-04-04 at 10 40 00 PM" src="https://user-images.githubusercontent.com/114192448/230262892-bdcf9126-4b57-4145-915d-e322b034db61.png">
 <img width="1245" alt="Screen Shot 2023-04-04 at 10 30 31 PM" src="https://user-images.githubusercontent.com/114192448/230262933-e68dc9cc-c4ba-4ede-9e2a-12411500167c.png">
 
