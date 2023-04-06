@@ -87,3 +87,6 @@ For our project this far, we have utilized jupyter notebook using python for the
 <img width="1300" alt="Additional_Findings" src="https://user-images.githubusercontent.com/116031639/230139087-a160c046-fac2-4184-819e-aa03b15acf3d.png">
  
 As a result of this [Tableau Dashboard](https://public.tableau.com/views/Video_Games_16806521062030/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link), we have found that there have been many developers of video games. Also, while sales peaked in 2008, the user count data peaked in 2011. Furthermore, sales by platform showed clear favorites from the sales data. Finally, average critic scores did not vary significantly, however the clear favorite for critic scores is the DC platform. 
+
+Class presentation on project
+https://docs.google.com/presentation/d/1xVGGq-8ts-OEZfxhL8df9LgDq6co0zuXKHTqA43m3cc/edit?usp=sharing
