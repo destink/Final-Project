@@ -83,6 +83,12 @@ For our project this far, we have utilized jupyter notebook using python for the
 ### Results
 
 ### Additional Findings via Tableau: 
+<img width="1253" alt="Screen Shot 2023-04-04 at 10 40 00 PM" src="https://user-images.githubusercontent.com/114192448/230262892-bdcf9126-4b57-4145-915d-e322b034db61.png">
+<img width="1245" alt="Screen Shot 2023-04-04 at 10 30 31 PM" src="https://user-images.githubusercontent.com/114192448/230262933-e68dc9cc-c4ba-4ede-9e2a-12411500167c.png">
+
+<img width="1247" alt="Screen Shot 2023-04-04 at 10 37 13 PM" src="https://user-images.githubusercontent.com/114192448/230262944-674d2e48-5ebb-41aa-ab24-0354e84137dc.png">
+<img width="1269" alt="Screen Shot 2023-04-04 at 10 49 59 PM" src="https://user-images.githubusercontent.com/114192448/230262962-b0efb319-733e-45e8-9382-9d4f7f20b73d.png">
+
 
 <img width="1300" alt="Additional_Findings" src="https://user-images.githubusercontent.com/116031639/230139087-a160c046-fac2-4184-819e-aa03b15acf3d.png">
  
